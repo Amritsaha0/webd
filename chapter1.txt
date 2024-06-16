@@ -1,1 +1,17 @@
-amit
+cd desktop
+mkdir story
+notepad chapter1.txt
+git init 
+git status 
+git add chapter1.txt
+git commit 
+		Initial commit of chapter1.txt
+			:wq enter
+
+git diff chapter1.txt
+git checkout chapter1.txt
+
+
+git remote add origin link
+git branch -M main
+git push -u origin main
